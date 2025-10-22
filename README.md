@@ -1,16 +1,29 @@
-# expense_tracker
+# Flutter Expense Tracker
 
-A new Flutter project.
+This project is a cross-platform expense tracking app. Users can add and delete expenses, and quickly compare total expenses visually on the included chart. Check out the live Expense Tracker web app.
 
-## Getting Started
+## Theming
 
-This project is a starting point for a Flutter application.
+This app offers two unique UIs for Dark and Light theme user preferences.
 
-A few resources to get you started if this is your first Flutter project:
+## Responsive
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The app also support responsive UI adjustments, reorganizing elements for portrait and landscape orientations.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Adaptive
+
+This app also demonstrates Adaptive UI adjustments, to give a more native experience if the user is viewing on Android or iOS.
+
+## Testing
+
+This project includes more expansive Widget Testing (component testing) to ensure elements continue to render and function properly with future updates.
+
+## Skills
+- **Theming** to support dark and light mode UIs
+- **Modal Views** for adding new expenses and alerting user of invalid input
+- **Dismissible** list items, to allow user to swipe an expense to remove it
+- **Snackbar notifications** to allow user to 'undo' when deleting an expense
+- Custom **Chart Widget** to visually display total expenses
+- **Responsive** UI to adjust UI elements for different screen sizes and rotations.
+- **Adaptive** UI to fine tune look for iOS vs Android
+- More in-depth **Widget Testing** (component testing) to test UI element functionality in both portrait and landscape renderings. 
